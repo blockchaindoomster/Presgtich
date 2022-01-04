@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html
+{
+background:black !important
+}
+
+.wpml-ls-slot-7, .wpml-ls-slot-7 a, .wpml-ls-slot-7 a:visited{background-color:#e5e5e5;color:#222222;}.wpml-ls-slot-7:hover, .wpml-ls-slot-7:hover a, .wpml-ls-slot-7 a:hover{color:#000000;background-color:#eeeeee;}.wpml-ls-slot-7.wpml-ls-current-language, .wpml-ls-slot-7.wpml-ls-current-language a, .wpml-ls-slot-7.wpml-ls-current-language a:visited{color:#222222;background-color:#eeeeee;}.wpml-ls-slot-7.wpml-ls-current-language:hover, .wpml-ls-slot-7.wpml-ls-current-language:hover a, .wpml-ls-slot-7.wpml-ls-current-language a:hover{color:#000000;background-color:#eeeeee;}
+   
+    .slider {
+        width: 90%;
+        margin: 0px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 10px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: white;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .2s;
+      opacity: 1;
+    }
+    
+    .slick-active {
+      opacity: 1;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
+  #hero {
+    position: relative;
+    -webkit-clip-path: polygon(0 0,100% 0,100% 80%,50% 100%,0 80%);
+    /* clip-path: polygon(0 0,100% 0,100% 88%,50% 100%,0 88%); */
+    width: 100%;
+    height: 100vh;
+    padding: 0 0 0 0;
+}
